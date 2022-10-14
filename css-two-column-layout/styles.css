@@ -1,0 +1,54 @@
+.container {
+  max-width: 1000px;
+  min-width: 900px;
+  margin: auto;
+  font-family: "normal", Karla, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-full,
+.column-full h1,
+.column-full p {
+  width: 100%;
+  text-align: center;
+}
+
+.column-fourth {
+  flex-basis: 50%;
+  padding: 15px;
+}
+
+.column-images {
+  width: 30%;
+}
+
+.column-one-fourth {
+  width: 70%;
+  padding: 10px;
+}
+
+h3 {
+  margin-top: 35px;
+}
+
+.column-full p,
+.column-one-fourth p {
+  color: #575757;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  font-weight: 650;
+  letter-spacing: 1px;
+  background-color: white;
+  color: #d14b45;
+  padding: 10px 35px;
+  border: 0.18rem solid #d14b45;
+}
