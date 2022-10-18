@@ -51,41 +51,38 @@ var orderHistory = [
     deliveryToResident: true
   },
   {
-    items: [
-      {
-        item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-        author: null,
-        returnWindow: 'aug, 4, 2020',
-        priceOfTheItem: 94.95,
-        FinalPrice: 138.93,
-        deliveryDate: 'July, 5, 2020',
-        orderPlacedDate: 'July, 3, 2020',
-        shipTo: 'JS Masher',
-        OrderNumber: '113-2883177-2648248',
-        delivered: true,
-        eligibleForReturn: false,
-        returned: false,
-        productSupport: true,
-        productReview: null,
-        deliveryToResident: false
-      },
-      {
-        item: 'The Art of Sql',
-        author: 'Faroult, Stephane',
-        returnWindow: 'aug, 4, 2020',
-        priceOfTheItem: 33.99,
-        FinalPrice: 138.93,
-        deliveryDate: 'July, 5, 2020',
-        orderPlacedDate: 'July, 3, 2020',
-        shipTo: 'JS Masher',
-        OrderNumber: '113-2883177-2648248',
-        delivered: true,
-        eligibleForReturn: false,
-        returned: false,
-        productSupport: true,
-        deliveryToResident: false
-      }
-    ]
+    item1: {
+      item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
+      author: null,
+      returnWindow: 'aug, 4, 2020',
+      priceOfTheItem: 94.95,
+      FinalPrice: 138.93,
+      deliveryDate: 'July, 5, 2020',
+      orderPlacedDate: 'July, 3, 2020',
+      shipTo: 'JS Masher',
+      OrderNumber: '113-2883177-2648248',
+      delivered: true,
+      eligibleForReturn: false,
+      returned: false,
+      productSupport: true,
+      productReview: null,
+      deliveryToResident: false
+    },
+    item2: {
+      item: 'The Art of Sql',
+      author: 'Faroult, Stephane',
+      returnWindow: 'aug, 4, 2020',
+      priceOfTheItem: 33.99,
+      FinalPrice: 138.93,
+      deliveryDate: 'July, 5, 2020',
+      orderPlacedDate: 'July, 3, 2020',
+      shipTo: 'JS Masher',
+      OrderNumber: '113-2883177-2648248',
+      delivered: true,
+      eligibleForReturn: false,
+      returned: false,
+      productSupport: true,
+      deliveryToResident: false
+    }
   }
-
 ];
