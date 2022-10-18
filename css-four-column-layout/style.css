@@ -16,11 +16,6 @@ h2 {
   display: flex;
 }
 
-.column-full {
-  width: 100%;
-  display: flex;
-}
-
 .column-fourth {
   margin: 10px;
   display: flex;
