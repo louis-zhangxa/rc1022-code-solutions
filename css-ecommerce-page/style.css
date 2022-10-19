@@ -1,0 +1,42 @@
+body {
+  width: 90%;
+  margin: auto;
+  font-family: "DM Sans", normal, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column-fifth {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+#lv-bag {
+  height: 110%;
+}
+
+.column-fifth span {
+  color: #dadada;
+  border-left: 1px solid #dadada;
+  padding-left: 5px;
+}
+
+.column-fifth del {
+  color: #dadada;
+}
+
+.price {
+  color: black;
+}
