@@ -5,7 +5,8 @@ var $backGround = document.querySelector('.background');
 
 function lightBulb(event) {
   clicked++;
-  if (clicked % 2 === 0) {
+  var lightOff = (clicked % 2 === 0);
+  if (lightOff === true) {
     $switch.className = 'button';
     $backGround.className = 'background';
   } else {
