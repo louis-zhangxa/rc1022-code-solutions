@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+}
+
+.page {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: sans-serif;
+}
