@@ -22,7 +22,7 @@ console.log('type of book array:', typeof book);
 var demo = JSON.stringify(book);
 console.log(demo, 'type of demo:', typeof demo);
 
-var handinput = '{"Number id": "louis", "String name": "1"}';
+var handinput = '{"id": "1234", "name": "louis"}';
 console.log(handinput, 'typeof handinput:', typeof handinput);
 
 var obj = JSON.parse(handinput);
