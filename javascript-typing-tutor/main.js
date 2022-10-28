@@ -10,6 +10,7 @@ var count = 0;
 function Key(event) {
   if (event.key === $spanlist[number].innerHTML) {
     $spanlist[number].className = 'text correct';
+    $spanlist[number + 1].className = 'text underline';
     number++;
     count++;
   } else {
