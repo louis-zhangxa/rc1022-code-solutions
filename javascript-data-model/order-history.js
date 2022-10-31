@@ -1,9 +1,11 @@
 var orderHistory = [
-  {
-    OrderNumber: '114 - 3941689 - 8772232',
-    FinalPrice: 34.00,
-    shipTo: 'JS Masher',
-    item1: {
+  [
+    {
+      OrderNumber: '114 - 3941689 - 8772232',
+      FinalPrice: 34.00,
+      shipTo: 'JS Masher'
+    },
+    {
       item: 'JavaScript for impatient programmers',
       author: 'Rauschmayer, Dr. Axel',
       returnWindow: 'sep, 7, 2020',
@@ -17,12 +19,14 @@ var orderHistory = [
       productReview: null,
       deliveryToResident: true
     }
-  },
-  {
-    OrderNumber: '113-9984268-1280257',
-    FinalPrice: 44.53,
-    shipTo: 'JS Masher',
-    item1: {
+  ],
+  [
+    {
+      OrderNumber: '113-9984268-1280257',
+      FinalPrice: 44.53,
+      shipTo: 'JS Masher'
+    },
+    {
       item: 'The Timeless Way of Building',
       author: 'Alexander, Christopher',
       returnWindow: 'aug, 19, 2020',
@@ -36,12 +40,14 @@ var orderHistory = [
       productReview: null,
       deliveryToResident: true
     }
-  },
-  {
-    OrderNumber: '114-2875557-9059409',
-    FinalPrice: 17.22,
-    shipTo: 'JS Masher',
-    item1: {
+  ],
+  [
+    {
+      OrderNumber: '114-2875557-9059409',
+      FinalPrice: 17.22,
+      shipTo: 'JS Masher'
+    },
+    {
       item: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for Wii U, PC.Support Turbo and Vibration Features.No Driver and No Lag- Gamecube Adapter',
       author: null,
       returnWindow: 'aug, 5, 2020',
@@ -55,12 +61,14 @@ var orderHistory = [
       productReview: null,
       deliveryToResident: true
     }
-  },
-  {
-    OrderNumber: '113-2883177-2648248',
-    FinalPrice: 138.93,
-    shipTo: 'JS Masher',
-    item1: {
+  ],
+  [
+    {
+      OrderNumber: '113-2883177-2648248',
+      FinalPrice: 138.93,
+      shipTo: 'JS Masher'
+    },
+    {
       item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
       author: null,
       returnWindow: 'aug, 4, 2020',
@@ -74,7 +82,7 @@ var orderHistory = [
       productReview: null,
       deliveryToResident: false
     },
-    item2: {
+    {
       item: 'The Art of Sql',
       author: 'Faroult, Stephane',
       returnWindow: 'aug, 4, 2020',
@@ -87,5 +95,5 @@ var orderHistory = [
       productSupport: true,
       deliveryToResident: false
     }
-  }
+  ]
 ];
