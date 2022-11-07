@@ -7,7 +7,7 @@ var $spanlist = document.querySelectorAll('.text');
 var number = 0;
 var count = 0;
 
-function Key(event) {
+function handleKeydown(event) {
   if (event.key === $spanlist[number].innerHTML) {
     $spanlist[number].className = 'text correct';
     $spanlist[number + 1].className = 'text underline';
@@ -29,4 +29,4 @@ function Key(event) {
   }
 }
 
-document.addEventListener('keydown', Key);
+document.addEventListener('keydown', handleKeydown);
