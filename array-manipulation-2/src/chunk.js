@@ -1,4 +1,11 @@
 /* exported chunk */
+/* define output
+define a list for the list in output
+define a varible to make list length same as size
+loop through array, give the array item to list array. increment count everytime
+if count is the same value of size
+push the list array to output array
+return output */
 function chunk(array, size) {
   var output = [];
   var list = [];
