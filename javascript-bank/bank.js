@@ -18,7 +18,7 @@ Bank.prototype.openAccount = function (holder, balance) {
 };
 
 Bank.prototype.getAccount = function (number) {
-  if (this.accounts[number] !== undefined) {
+  if (this.accounts[number + 1] !== undefined) {
     return this.accounts[number];
   } else {
     return null;
