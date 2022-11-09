@@ -1,0 +1,55 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
+.carousel {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-border {
+  border: 4px solid black;
+}
+
+.angle-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.angle-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .left,
+.right {
+
+} */
+
+img {
+  padding: 2rem;
+}
+
+.circle-selector {
+  justify-content: center;
+}
+
+.round {
+  padding: 2rem 1rem;
+}
