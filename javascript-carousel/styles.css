@@ -37,10 +37,10 @@
   align-items: center;
 }
 
-/* .left,
+.left,
 .right {
-
-} */
+  cursor: pointer;
+}
 
 img {
   padding: 2rem;
@@ -52,4 +52,5 @@ img {
 
 .round {
   padding: 2rem 1rem;
+  cursor: pointer;
 }
