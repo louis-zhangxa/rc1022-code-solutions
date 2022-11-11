@@ -1,4 +1,9 @@
 /* exported invert */
+/* define output
+define the array for store proprety
+list all the key in object and store to an array
+loop through all the value and put in the array
+lopp through all the value then add to output object with proprety */
 function invert(source) {
   var output = {};
   var las = [];

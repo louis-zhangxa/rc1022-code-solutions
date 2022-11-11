@@ -1,4 +1,10 @@
 /* exported omit */
+/* define output
+list all the key in source object
+loop through all the key in source object
+loop through all the item in keys array to see if they exist in source
+if exist, next key
+if not, add to output */
 function omit(source, keys) {
   var output = {};
   var list = Object.keys(source);
