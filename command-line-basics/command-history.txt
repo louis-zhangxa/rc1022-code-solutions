@@ -1,0 +1,502 @@
+   98  git switch string-manipulation-2
+   99  git switch main
+  100  git switch string-manipulation-2
+  101  git switch main
+  102  git branch css-media-queries
+  103  git switch css-media-queries
+  104  git add css-media-queries
+  105  git commit -m'completed css-media-queries'
+  106  git push origin css-media-queries
+  107  git switch main
+  108  git pull origin main
+  109  git branch dom-event-delegation
+  110  git switch dom-event-delegation
+  111  git add dom-event-delegation
+  112  git commit -m'completed dom-event-delegation'
+  113  git push origin dom-event-delegation
+  114  git switch main
+  115  git restore dom-event-delegation
+  116  git switch main
+  117  git switch string-manipulation-2
+  118  git add string-manipulation-2
+  119  git commit -m'unfinished'
+  120  git switc main
+  121  git pull origin main
+  122  git switch main
+  123  git branch javascript-view-swapping
+  124  git switch javascript-view-swapping
+  125  git add javascript-view-swapping
+  126  git commit -m'completed javascript-view-swapping'
+  127  git push origin javascript-view-swapping
+  128  git switch main
+  129  git restore javascript-view-swapping
+  130  git switch main
+  131  git pull origin main
+  132  git switch javascript-typing-tutor
+  133  git add javascript-typing-tutor
+  134  git commit -m'completed javascript-typing-tutor'
+  135  git push origin javascript-typing-tutor
+  136  git add javascript-typing-tutor
+  137  git commit -m'fixed javascript-typing-tutor with underline'
+  138  git push origin javascript-typing-tutor
+  139  git switch main
+  140  git stash javascript-typing-tutor
+  141  git switch main
+  142  git restore javascript-typing-tutor
+  143  git switch main
+  144  git pull origin main
+  145  git branch css-responsive-layout
+  146  git switch css-responsive-layout
+  147  git add css-responsive-layout
+  148  git commit -m'completed css-responsive-layout'
+  149  git push origin css-responsive-layout
+  150  git switch main
+  151  git pull origin main
+  152  git branch javascript-and-json
+  153  git switch javascript-and-json
+  154  git add javascript-and-json
+  155  git commit -m'completed javascript-and-json'
+  156  git push origin javascript-and-json
+  157  git add javascript-and-json
+  158  git commit -m'completed javascript-and-json2''
+  159  git add javascript-and-json2
+  160  '
+  161  git push origin javascript-and-json
+  162  git switch main
+  163  git pull origin main
+  164  git branch javascript-local-storage
+  165  git switch javascript-local-storage
+  166  git add javascript-local-storage
+  167  git commit -m'javascript-local-storage'
+  168  git push origin javascript-local-storage
+  169  git switch main'
+  170  '
+  171  git switch main
+  172  git pull origin main
+  173  git switch string-manipulation-2
+  174  git switch javascript-local-storage
+  175  git add string-manipulation-2
+  176  git commit -m'completed string-manipulation-2'
+  177  git push origin string-manipulation-2
+  178  git switch main
+  179  git pull origin main
+  180  git branch array-manipulation-2
+  181  git switch array-manipulation-2
+  182  git add array-manipulation-2
+  183  git commit -m'unfinished array-manipulation-2'
+  184  git add array-manipulation-2
+  185  git commit -m'unfinished array-manipulation-2'
+  186  git switch main
+  187  git pull origin main
+  188  git switch javascript-data-model
+  189  git add javascript-data-model
+  190  git commit 'javascript-data-model fixed code 1'
+  191  git commit -m'javascript-data-model fixed code 1'
+  192  git push origin javascript-data-model
+  193  git switch css-canvas-medical
+  194  git add css-canvas-medical
+  195  git commit -m'unfinished css-canvas-medical'
+  196  git switch to main
+  197  git pull origin main
+  198  git switch css-canvas-medical
+  199  git switch to main
+  200  git restore css-canvas-medical
+  201  git switch to main
+  202  git switch to main
+  203  run git status
+  204  git status
+  205  git switch array-manipulation-2
+  206  git restore css-canvas-medical
+  207  git switch array-manipulation-2
+  208  git restore css-canvas-medical
+  209  git switch array-manipulation-2
+  210  git commit -m'unfinished css-canvas-medical"
+  211  '
+  212  git status
+  213  git commit -m'unfinished css-canvas-medical"
+  214  '
+  215  git commit -m'unfinished css-canvas-medical" 
+  216  git commit -m'unfinished css-canvas-medical"
+  217  '
+  218  '
+  219  git status
+  220  git add css-canvas-medical/index.html
+  221  git add css-canvas-medical/styles.css
+  222  git commit -m'css-canvas-medical 2'
+  223  git commit -m'css-canvas-medical 2' --no-verify
+  224  git push origin css-canvas-medical
+  225  git switch array-manipulation-2
+  226  git status
+  227  git add array-manipulation-2
+  228  git push origin array-manipulation-2
+  229  git switch main
+  230  git status
+  231  git add array-manipulation-2
+  232  git commit -m'array-manipulation-2'
+  233  git push origin array-manipulation-2
+  234  git switch main
+  235  git branch object-manipulation-2
+  236  git switch object-manipulation-2
+  237  git status
+  238  git add object-manipulation-2
+  239  git commit -m'unfinish object-manipulation-2'
+  240  git switch main
+  241  git pull origin main
+  242  git branch javascript-custom-methods
+  243  git switch javascript-custom-methods
+  244  git add javascript-custom-methods
+  245  git commit -m'javascript-custom-methods'
+  246  git push origin javascript-custom-methods
+  247  git switch main
+  248  git switch javascript-typing-tutor
+  249  git add javascript-typing-tutor
+  250  git commit -m'fixed class name'
+  251  git push origin javascript-typing-tutor
+  252  git switch array-manipulation-2
+  253  git add array-manipulation-2
+  254  git commit -m;array-manipulation-2'
+  255  '
+  256  git commit -m'array-manipulation-2
+  257  git push origin array-manipulation-2
+  258  git switch javascript-custom-methods
+  259  git switch main
+  260  git pull origin main
+  261  git branch javascript-this
+  262  git switch javascript-this
+  263  git add javascript-this
+  264  git commit -m'javascript-this'
+  265  git push origin javascript-this
+  266  git switch object-manipulation-2
+  267  git switch javascript-this
+  268  git add object-manipulation-2
+  269  git commit -m'unfinished object-manipulation-2'
+  270  git add object-manipulation-2
+  271  git commit -m'unfinished object-manipulation-2'
+  272  git switch javascript-this
+  273  git switch main
+  274  git branch javascript-prototypes
+  275  git swicth javascript-prototypes
+  276  git switch javascript-prototypes
+  277  git add javascript-prototypes
+  278  git commit -m'javascript-prototypes'
+  279  git push origin javascript-prototypes
+  280  git switch object-manipulation-2
+  281  git switch javascript-prototypes
+  282  git switch main
+  283  git branch javascript-constructors
+  284  git switch javascript-constructors
+  285  git add javascript-constructors
+  286  git commit -m'finished javascript-constructors'
+  287  git push origin javascript-constructors
+  288  git switch main
+  289  git branch javascript-bank
+  290  git switch javascript-bank
+  291  git add javascript-bank
+  292  git commit -m'unfinished javascript-bank'
+  293  git switch main
+  294  git branch javascript-timers
+  295  git switch javascript-timers
+  296  git add javascript-timers
+  297  git commit -m'finished javascript-timers'
+  298  git push origin javascript-timers
+  299  git switch javascript-bank
+  300  git add javascript-bank
+  301  git commit -m;unfinished javascript-bank'
+  302  '
+  303  git commit -m;unfinished javascript-bank'
+  304  '
+  305  git commit -m'unfinished javascript-bank2'
+  306  git add javascript-bank
+  307  git commit -m'unfinished javascript-bank2'
+  308  git switch main
+  309  git branch javascript-carousel
+  310  git switch javascript-carousel
+  311  git add javascript-carousel
+  312  git commit -m'unfinished javascript-carousel'
+  313  git add javascript-carousel
+  314  git commit -m'unfinished javascript-carousel'
+  315  git add javascript-carousel
+  316  git commit -m'finished javascript-carousel'
+  317  git push origin javascript-carousel
+  318  git switch main
+  319  git switch javascript-bank
+  320  git switch main
+  321  git pull origin main
+  322  git branch http-messages
+  323  git switch http-messages
+  324  https://example.com
+  325  https httpie.io/hello
+  326  https://example.com
+  327  https://example.com
+  328  https httpie.io/hello
+  329  https://example.com
+  330  quit
+  331  get https://example.com
+  332  https GET example.com
+  333  clear
+  334  http https://example.com
+  335  http --verbose https://example.com
+  336  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  337  http --body GET https://example.com > http-messages/index.html
+  338  git add http-messages
+  339  git commit -m'finished http-messages'
+  340  git push origin http-messages
+  341  git switch javascript-bank
+  342  git add javascript-bank
+  343  git commit -m'finished javascript-bank'
+  344  git push origin javascript-bank
+  345  git switch object-manipulation-2
+  346  git add object-manipulation-2
+  347  git commit -m'finished object-manipulation-2'
+  348  git push origin object-manipulation-2
+  349  git add object-manipulation-2
+  350  git commit -m'finished object-manipulation-2 fixed''
+  351  '
+  352  git push origin object-manipulation-2
+  353  git switch bank
+  354  git switch javascript-bank
+  355  git switch javascript-carousel
+  356  git switch main
+  357  git pull origin main
+  358  git branch javascript-ajax
+  359  git switch javascript-ajax
+  360  git add javascript-ajax
+  361  git commit -m'finished javascript-ajax'
+  362  git push origin javascript-ajax
+  363  git switch maim
+  364  git switch main
+  365  git branch test
+  366  git switch test
+  367  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json
+  368  http --verbose https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json
+  369  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.min.json
+  370  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/2020-11-24/currencies/eur.json
+  371  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json
+  372  http https://sandbox.api.kbb.com/ads/v1/vehicle?vehicleIds=1&api_key=louis
+  373  https://sandbox.api.kbb.com/ads/v1/vehicle?vehicleIds=1%2C2%2C3%2C4&api_key=louis
+  374  http https://sandbox.api.kbb.com/ads/v1/vehicle?vehicleIds=1%2C2%2C3%2C4&api_key=louis
+  375  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json
+  376  http -- verbose https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json
+  377  http --verbose https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json
+  378  http //www.cbr.ru/scripts/XML_dynamic.asp
+  379  http http//www.cbr.ru/scripts/XML_dynamic.asp
+  380  http http:
+  381  //www.cbr.ru/scripts/XML_dynamic.asp
+  382  http http://www.cbr.ru/scripts/XML_daily.asp?date_req=02/03/2002
+  383  http://www.cbr.ru/scripts/XML_daily.asp?date_req=11/10/2022
+  384  http://www.cbr.ru/scripts/XML_daily.asp?date_req=11/10/2021
+  385  http://www.cbr.ru/scripts/XML_daily.asp?
+  386  http://www.cbr.ru/scripts/XML_daily.asp
+  387  http http://www.cbr.ru/scripts/XML_daily.asp?date_req=02/03/2002
+  388  http http ://www.cbr.ru/scripts/XML_daily_eng.asp?date_req=11/11/2022
+  389  http http://www.cbr.ru/scripts/XML_daily_eng.asp?date_req=11/11/2022
+  390  http https://api.frankfurter.app/latest
+  391  http https://api.frankfurter.app/latest?from=USD
+  392  http https://api.frankfurter.app/latest?from=CNY
+  393  http http://api.nbp.pl/api/exchangerates/rates/A/CNY
+  394  http http://api.nbp.pl/api/exchangerates/rates/B/CNY
+  395  http http://api.nbp.pl/api/exchangerates/rates/C/CNY
+  396  http http://api.nbp.pl/api/exchangerates/rates/C/USD
+  397  http http://api.nbp.pl/api/exchangerates/rates/B/USD
+  398  http http://api.nbp.pl/api/exchangerates/rates/A/USD
+  399  http http://api.nbp.pl/api/exchangerates/rates/A/USD/2022-11-11
+  400  http http://api.nbp.pl/api/exchangerates/rates/A/USD/2022-11-01
+  401  http http://api.nbp.pl/api/exchangerates/rates/B/USD/2022-11-01
+  402  http http:/api/1?q=google chrome
+  403  http http:/api/1?q=google
+  404  http http:/api/1?q=bmw
+  405  http https://api.nasa.gov/planetary/earth/imagery
+  406  http https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+  407  https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=DEMO_KEY
+  408  http https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=DEMO_KEY
+  409  http https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=DEMO_KEY
+  410  http https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=fubf1P8TBfSVnKoji2DfkjVwH5YVxErgoz71ip6j
+  411  http https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=DEMO_KEY
+  412  http https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-11-3&api_key=fubf1P8TBfSVnKoji2DfkjVwH5YVxErgoz71ip6j
+  413  http https://cataas.com/cat
+  414  http https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=gYVrGOjw2S7XkzyfcVHvsTNzBiYEqbYRv8znUOe3
+  415  http https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=gYVrGOjw2S7XkzyfcVHvsTNzBiYEqbYRv8znUOe3
+  416  https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=T2D1X9SDjuB2toNxSxe5jdg7b5Y4pLxRKBzLHMjI
+  417  http https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=T2D1X9SDjuB2toNxSxe5jdg7b5Y4pLxRKBzLHMjI
+  418  curl -X GET "https://developer.nps.gov/api/v1/webcams?parkCode=acad&parkCode=&stateCode=ma&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR" -H "accept: application/json"
+  419  curl -X GET "https://developer.nps.gov/api/v1/amenities/parksvisitorcenters?parkCode=acad&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR" -H "accept: application/json"
+  420  curl -X GET "https://developer.nps.gov/api/v1/webcams?parkCode=acad&parkCode=&stateCode=me&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR" -H "accept: application/json"
+  421  http https://developer.nps.gov/api/v1/amenities/parksvisitorcenters?parkCode=acad&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR
+  422  http GET "https://developer.nps.gov/api/v1/amenities/parksvisitorcenters?parkCode=acad&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  423  http GET "https://developer.nps.gov/api/v1/parks?parkCode=acad&stateCode=me&sort=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  424  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=acad&stateCode=me&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  425  GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=king&stateCode=ca&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  426  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=king&stateCode=ca&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  427  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=yose&stateCode=ca&stateCode=&api_key=U0OEo2WthcUFcjzes9yDFelI8eCylhJS4vvu5RSR"
+  428  http https://api.adviceslip.com/advice
+  429  http https://api.adviceslip.com/advice
+  430  http https://biriyani.anoram.com/get
+  431  http https://biriyani.anoram.com/get
+  432  http https://www.foaas.com/awesome/:Louis
+  433  http https://www.foaas.com/awesome/Louis
+  434  http http://api.forismatic.com/api/1.0/
+  435  http http://api.forismatic.com/api/1.0/json
+  436  http http://api.forismatic.com/api/1.0/json
+  437  http https://zenquotes.io/api/quotes
+  438  http https://quote-garden.herokuapp.com/api/v3/quotes
+  439  http https://quote-garden.herokuapp.com/api/v3/P
+  440  http https://quote-garden.herokuapp.com/api/v3/quote
+  441  http https://quote-garden.herokuapp.com/api/v3/
+  442  http https://picsum.photos/200/300
+  443  http https://picsum.photos/200/300
+  444  http GET https://picsum.photos/200/300
+  445  http GET https://picsum.photos/200/300
+  446  https://picsum.photos/seed/picsum/200/300
+  447  http https://picsum.photos/seed/picsum/200/300
+  448  http /vehicles/GetMakeForManufacturer/honda?format=json
+  449  http https:///vehicles/GetMakeForManufacturer/honda?format=json
+  450  http https://vpic.nhtsa.dot.gov/api/vehicles/GetMakeForManufacturer/honda?format=json
+  451  http https://vpic.nhtsa.dot.gov/api/vehicles/GetMakeForManufacturer/bmw?format=json
+  452  http https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMake/honda?format=json
+  453  https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/cny/usd.json
+  454  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/cny/usd.json
+  455  http https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cny.json
+  456  http https://api.frankfurter.app/latest?from=USD
+  457  https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+  458  http https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+  459  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=yose&api_key=0uSbnegDd6Y21L5wUMh9iHfTqJ1E2E2t1RmB2Dqq" -H "accept: application/json"
+  460  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=yose&api_key=0uSbnegDd6Y21L5wUMh9iHfTqJ1E2E2t1RmB2Dqq"
+  461  https://api.adviceslip.com/advice
+  462  http https://api.adviceslip.com/advice
+  463  http https://biriyani.anoram.com/get
+  464  http https://zenquotes.io/api/random
+  465  http https://vpic.nhtsa.dot.gov/api/vehicles/GetMakeForManufacturer/bmw?format=json
+  466  http https://www.breakingbadapi.com/api/character/random
+  467  http GET "https://developer.nps.gov/api/v1/passportstamplocations?parkCode=yose&api_key=0uSbnegDd6Y21L5wUMh9iHfTqJ1E2E2t1RmB2Dqq"
+  468  http https://developer.nps.gov/api/v1/thingstodo?api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY 
+  469  http https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  470  http GET https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  471  http https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  472  http GET https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  473  http https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  474  http curl -X GET "https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY" -H "accept: application/json"
+  475  http curl -X GET "https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY" -H "accept: application/json"
+  476  http GET "https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY"
+  477  http https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  478  http GET "https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY"
+  479  http https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  480  http "https://developer.nps.gov/api/v1/thingstodo?parkCode=yose&api_key=zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY"
+  481  http "https://developer.nps.gov/api/v1/thingstodo?parkCode==yose&api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY"
+  482  http https://developer.nps.gov/api/v1/passportstamplocations api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  483  http http https://developer.nps.gov/api/v1/passportstamplocations api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  484  http https://developer.nps.gov/api/v1/passportstamplocations api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  485  http http https://developer.nps.gov/api/v1/parks api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  486  http https://developer.nps.gov/api/v1/parks api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  487  http https://developer.nps.gov/api/v1/parks api_key==zfq2cSth1H6ynVcxdUiCUfdUdsTPyW6nusqU7OFY
+  488  git switch main'
+  489  '
+  490  git switch main
+  491  git branch string-manipulation-3
+  492  git switch string-manipulation-3
+  493  git status
+  494  git add string-manipulation-3
+  495  git commit -m'unfinished string-manipulation-3'
+  496  git switch main
+  497  git branch es6-const-let
+  498  git switch es6-const-let
+  499  git status
+  500  git add es6-const-let
+  501  git commit -m'finished es6-const-let'
+  502  git push origin es6-const-let
+  503  git switch main
+  504  git branch es6-template-literals
+  505  git switch es6-template-literals
+  506  git add es6-template-literals
+  507  git commit -m'finished es6-template-literals'
+  508  git push origin es6-template-literals
+  509  git switch main
+  510  git branch es6-destructuring
+  511  git switch es6-destructuring
+  512  git add es6-destructuring
+  513  git commit -m'finished es6-destructuring'
+  514  git push origin es6-destructuring
+  515  git switch main
+  516  git branch es6-arrow-functions
+  517  git switch es6-arrow-functions
+  518  git status
+  519  git add es6-arrow-functions
+  520  git commit -m'finished es6-arrow-functions'
+  521  git push origin es6-arrow-functions
+  522  git switch main
+  523  git pull origin main
+  524  git branch command-line-basics
+  525  git switch command-line-basics
+  526  cd command-line-basics
+  527  man man
+  528  man cat
+  529  cat laziness.txt
+  530  cat impatience.txt
+  531  cat hubris.txt
+  532  cat laziness.txt impatience.txt hubris.txt
+  533  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  534  man cat
+  535  cat hubris.txt -E
+  536  cat laziness.txt impatience.txt hubris.txt -E
+  537  man cat
+  538  cat laziness.txt impatience.txt hubris.txt -n
+  539  man ls
+  540  man cat
+  541  man ls
+  542  ls
+  543  ls -a
+  544  ls -F
+  545  ls lfz-staff/
+  546  ls lfz-staff
+  547  ls lfz-staff -a
+  548  ls lfz-staff -F
+  549  ls -aF lfz-staff > lfz-staff/contents.txt
+  550  cat lfz-staff/contents.txt
+  551  man pwd
+  552  pwd
+  553  pwd > i-was-here.txt
+  554  ls
+  555  cat i-was-here.txt
+  556  man echo
+  557  echo 'Hello, World!'
+  558  echo 'Hello, World!' > hello.txt
+  559  ls
+  560  cat 'Hel
+
+'
+  561  cat hello.txt
+  562  man touch
+  563  touch tag-youre-it.txt
+  564  touch snoot/boop.txt
+  565  ls snoot/
+  566  man mkdir
+  567  man mkdir
+  568  ls parent/
+  569  mkdir parent
+  570  ls parent/
+  571  mkdir parent/child/grandchild -p
+  572  ls parent/
+  573  touch parent/child/grandchild .gitkeep
+  574  man touch
+  575  ls parent/child/grandchild -a
+  576  touch parent/child/grandchild/.gitkeep
+  577  ls parent/child/grandchild -a
+  578  man mv
+  579  mv pokiemans pokemon
+  580  mv pokiemans pokemons
+  581  mv pokemon pol
+  582  mv pol pokemon
+  583  ls
+  584  man rm
+  585  rm lol.txt
+  586  ls
+  587  rm kill-me/
+  588  rm kill-me/ -r
+  589  ls
+  590  man cp
+  591  cp and-then.txt no-and-then.txt
+  592  ls
+  593  cat and-then.txt
+  594  cat no-and-then.txt
+  595  man history
+  596  history
+  597  history > command-history.txt
