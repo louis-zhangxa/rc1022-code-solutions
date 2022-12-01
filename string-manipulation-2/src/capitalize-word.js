@@ -1,10 +1,10 @@
 /* exported capitalizeWord */
-/* function capitalizeWord(word) {
-  var output = '';
-  for (var i = 1; i < word.legnth; i++) {
-    output += word[i].toLowerCase();
-  }
-  return word[0].toUpperCase() + output;
+/* define the output
+make first letter of word argument to uppercase
+loop through the rest of the output, make alll the letter to lowercase
+if word argument is equal to 'javascript'
+make it to 'JavaScript'
+return the value
 } */
 
 function capitalizeWord(word) {
