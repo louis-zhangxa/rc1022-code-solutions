@@ -1,16 +1,12 @@
 /* exported defaults */
-/* list all the proprety in source object
-list all the proprety in target object
+/*
 loop through all the proprety in source object
-if is not same, update to target
+if target object doesn't have this key, make this key in target object and assign the value of source.key to it
 return target object */
 function defaults(target, source) {
-  var keys = Object.keys(source);
-  var key = Object.keys(target);
-  for (var i = 0; i < keys.length; i++) {
-    if (keys[i] !== key[i]) {
-      target[keys[i]] = source[keys[i]];
+  for (var key in source) {
+    if (target[key] === undefined) {
+      target[key] = source[key];
     }
   }
-  return target;
 }
