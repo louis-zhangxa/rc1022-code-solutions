@@ -8,16 +8,11 @@ if not, add to output */
 function omit(source, keys) {
   var output = {};
   for (var i = 0; i < keys.length; i++) {
-    for (var key in source) {
-      if (key !== keys[i]) {
-        break;
-      } else {
-        output[key] = source[key];
-      }
+    if (source[keys[i]] === undefined) {
+      output[keys[i]] = source[keys[i]];
     }
   }
   return output;
-
 }
 
 // var output = {};
