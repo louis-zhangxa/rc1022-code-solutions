@@ -4,12 +4,6 @@ const fs = require('fs');
 const json = require('./data.json');
 const notes = json.notes;
 
-const write = () => {
-  fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
-    if (err) throw err;
-  });
-};
-
 app.get('/api/notes', (req, res) => {
   const keys = [];
   for (const key in notes) {
@@ -42,7 +36,12 @@ app.post('/api/notes', (req, res) => {
     req.body.id = json.nextId;
     notes[json.nextId] = req.body;
     json.nextId++;
-    write();
+    fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
+      if (err) {
+        const erroeMessage = { error: 'oh shit something wrong!!!' };
+        res.status(500).json(erroeMessage);
+      }
+    });
     res.status(201).json(req.body);
   }
 });
@@ -57,7 +56,12 @@ app.delete('/api/notes/:id', (req, res) => {
       res.status(404).json(erroeMessage);
     } else {
       delete notes[req.params.id];
-      write();
+      fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
+        if (err) {
+          const erroeMessage = { error: 'oh shit something wrong!!!' };
+          res.status(500).json(erroeMessage);
+        }
+      });
       res.sendStatus(204);
     }
   }
@@ -75,7 +79,12 @@ app.put('/api/notes/:id', (req, res) => {
       req.body.id = req.params.id;
       notes[req.params.id] = req.body;
       json.nextId++;
-      write();
+      fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
+        if (err) {
+          const erroeMessage = { error: 'oh shit something wrong!!!' };
+          res.status(500).json(erroeMessage);
+        }
+      });
       res.sendStatus(200);
     }
   }
