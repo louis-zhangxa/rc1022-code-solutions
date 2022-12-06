@@ -40,9 +40,10 @@ app.post('/api/notes', (req, res) => {
       if (err) {
         const erroeMessage = { error: 'oh shit something wrong!!!' };
         res.status(500).json(erroeMessage);
+      } else {
+        res.status(201).json(req.body);
       }
     });
-    res.status(201).json(req.body);
   }
 });
 
@@ -60,9 +61,10 @@ app.delete('/api/notes/:id', (req, res) => {
         if (err) {
           const erroeMessage = { error: 'oh shit something wrong!!!' };
           res.status(500).json(erroeMessage);
+        } else {
+          res.sendStatus(204);
         }
       });
-      res.sendStatus(204);
     }
   }
 });
@@ -76,16 +78,22 @@ app.put('/api/notes/:id', (req, res) => {
       const erroeMessage = { error: "No id is match the object, don't be a fool okay?" };
       res.status(404).json(erroeMessage);
     } else {
-      req.body.id = req.params.id;
-      notes[req.params.id] = req.body;
-      json.nextId++;
-      fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
-        if (err) {
-          const erroeMessage = { error: 'oh shit something wrong!!!' };
-          res.status(500).json(erroeMessage);
-        }
-      });
-      res.sendStatus(200);
+      if (!req.body.content) {
+        const erroeMessage = { error: 'PUT SOMETHING PLEASE!!!!' };
+        res.status(400).json(erroeMessage);
+      } else {
+        req.body.id = req.params.id;
+        notes[req.params.id] = req.body;
+        json.nextId++;
+        fs.writeFile('./data.json', JSON.stringify(json, null, 2), 'utf-8', (err, data) => {
+          if (err) {
+            const erroeMessage = { error: 'oh shit something wrong!!!' };
+            res.status(500).json(erroeMessage);
+          } else {
+            res.sendStatus(200);
+          }
+        });
+      }
     }
   }
 });
