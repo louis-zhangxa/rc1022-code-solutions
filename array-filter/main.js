@@ -25,5 +25,3 @@ const haveD = names.filter(name => {
   return name.toLowerCase().includes('d');
 });
 console.log(haveD);
-
-console.log(names.indexOf('d'));
