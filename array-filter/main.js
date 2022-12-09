@@ -22,12 +22,8 @@ const startWithE = names.filter(name => name[0] === 'E');
 console.log(startWithE);
 
 const haveD = names.filter(name => {
-  const output = [];
-  for (let i = 0; i < name.length; i++) {
-    if (name[i] === 'D' || name[i] === 'd') {
-      output.push(name);
-    }
-  }
-  return output;
+  return name.toLowerCase().includes('d');
 });
 console.log(haveD);
+
+console.log(names.indexOf('d'));
