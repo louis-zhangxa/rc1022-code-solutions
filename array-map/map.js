@@ -8,24 +8,10 @@ function mapse(array, transform) {
   return output;
 }
 
-function double(num) {
-  return num * 2;
-}
-
-function priceEach(num) {
-  return `$${num.toFixed(2)}`;
-}
-
-const doubled = mapse(numbers, double);
+const doubled = mapse(numbers, num => num * 2);
 console.log(doubled);
 
-const prices = mapse(numbers, priceEach);
+const prices = mapse(numbers, num => {
+  return `$${num.toFixed(2)}`;
+});
 console.log(prices);
-
-// const doubled = numbers.mapse(num => num * 2);
-// console.log(doubled);
-
-// const prices = numbers.mapse(num => {
-//   return `$${num.toFixed(2)}`;
-// });
-// console.log(prices);
