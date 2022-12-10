@@ -34,5 +34,8 @@ const balance = account.reduce((balance, currentTrans) => {
 
 console.log(balance.amount);
 
-const composite = traits.reduce((returns, key) => Object.assign(returns, key));
+const composite = traits.reduce((returns, key) => {
+  const output = Object.assign(returns, key);
+  return output;
+});
 console.log(composite);
