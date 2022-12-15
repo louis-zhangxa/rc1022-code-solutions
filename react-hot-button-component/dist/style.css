@@ -1,0 +1,45 @@
+#root {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 2rem;
+  font-size: 1rem;
+  color: white;
+  border: 0.2rem solid black;
+  box-shadow: 3px 3px red;
+}
+
+button:active {
+  transform: translateY(0.25rem);
+}
+
+.hot-button.cold {
+  background-color: rgb(53 28 117);
+}
+
+.hot-button.cool {
+  background-color: rgb(103 78 167);
+}
+
+.hot-button.tepid {
+  background-color: rgb(224 102 102);
+}
+
+.hot-button.warm {
+  background-color: rgb(246 178 107);
+}
+
+.hot-button.hot {
+  background-color: rgb(231 231 73);
+}
+
+.hot-button.nuclear {
+  color: red;
+  border-color: red;
+  background-color: rgb(255 255 255);
+}
