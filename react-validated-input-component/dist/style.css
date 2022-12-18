@@ -1,0 +1,44 @@
+#root {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 1rem 0;
+}
+
+i {
+  padding-left: 0.5rem;
+}
+
+.password-empty,
+.password-wrong {
+  color: red;
+}
+
+.password-correct {
+  color: green;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid darkcyan;
+  background-color: white;
+  border-radius: 0.3rem;
+  color: black;
+}
+
+button:active {
+  transform: translateY(0.25rem);
+  background-color: antiquewhite;
+  color: red;
+}
