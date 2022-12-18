@@ -1,0 +1,48 @@
+.hidden {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+}
+
+.column-full {
+  display: flex;
+}
+
+i {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+h1,
+h3 {
+  padding: 0 1rem;
+}
+
+.col-20 {
+  flex-basis: 20%;
+  background-color: white;
+  margin-right: 1em;
+}
+
+.col-20:scope {
+  transition: margin-right 2s;
+}
+
+.col-80 {
+  flex-basis: 80%;
+  background-color: rgb(50 50 50 / 75%);
+}
