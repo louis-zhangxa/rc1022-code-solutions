@@ -53,7 +53,7 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(comp => {
-        const oldTodo = this.state.todos;
+        const oldTodo = this.state.todos.slice();
         this.setState({ todos: oldTodo.concat(comp) });
       })
       .catch(err => console.error('failed', err));
@@ -103,7 +103,7 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(comp => {
-        const oldTodo = this.state.todos;
+        const oldTodo = this.state.todos.slice();
         oldTodo[currentIndex] = comp;
         this.setState({ todos: oldTodo });
       })
