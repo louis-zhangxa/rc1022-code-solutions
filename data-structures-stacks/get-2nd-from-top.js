@@ -1,9 +1,11 @@
 /* exported get2ndFromTop */
 
 function get2ndFromTop(stack) {
-  if (stack.print() === 'Stack { <empty> }') {
+  const firstPop = stack.pop();
+  if (firstPop === undefined) {
     return undefined;
   } else {
+    stack.push(firstPop);
     const first = stack.pop();
     const second = stack.pop();
     if (second === undefined) {
